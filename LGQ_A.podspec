@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
 
   spec.name         = "LGQ_A"
   #发版版本号，每更新一次代码就改变一次版本号
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   #一个简单的总结，随便写
   spec.summary      = "A业务组建"
 
@@ -28,7 +28,7 @@ Pod::Spec.new do |spec|
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   #描述，随便写 但是要比 s.summary 长度长
   spec.description  = <<-DESC
-                    A业务组建
+                    A业务组建-a group
                    DESC
 
   #你的 git 仓库首页的网页 url，注意并不是 https/ssh这种代码仓库地址
