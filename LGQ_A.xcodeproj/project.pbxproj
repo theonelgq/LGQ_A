@@ -17,6 +17,7 @@
 		8DE1ECFE24BD4E8A0042042B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE1ECFD24BD4E8A0042042B /* main.m */; };
 		8DE1ED0824BD4E8A0042042B /* LGQ_ATests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE1ED0724BD4E8A0042042B /* LGQ_ATests.m */; };
 		8DE1ED1324BD4E8A0042042B /* LGQ_AUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE1ED1224BD4E8A0042042B /* LGQ_AUITests.m */; };
+		8DE1ED2324BD52A60042042B /* AViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE1ED2224BD52A60042042B /* AViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,8 @@
 		8DE1ED0E24BD4E8A0042042B /* LGQ_AUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LGQ_AUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DE1ED1224BD4E8A0042042B /* LGQ_AUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGQ_AUITests.m; sourceTree = "<group>"; };
 		8DE1ED1424BD4E8A0042042B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DE1ED2124BD52A60042042B /* AViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AViewController.h; sourceTree = "<group>"; };
+		8DE1ED2224BD52A60042042B /* AViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +109,7 @@
 		8DE1ECE724BD4E880042042B /* LGQ_A */ = {
 			isa = PBXGroup;
 			children = (
+				8DE1ED2024BD529A0042042B /* AViewController */,
 				8DE1ECE824BD4E880042042B /* AppDelegate.h */,
 				8DE1ECE924BD4E880042042B /* AppDelegate.m */,
 				8DE1ECEB24BD4E880042042B /* SceneDelegate.h */,
@@ -138,6 +142,15 @@
 				8DE1ED1424BD4E8A0042042B /* Info.plist */,
 			);
 			path = LGQ_AUITests;
+			sourceTree = "<group>";
+		};
+		8DE1ED2024BD529A0042042B /* AViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8DE1ED2124BD52A60042042B /* AViewController.h */,
+				8DE1ED2224BD52A60042042B /* AViewController.m */,
+			);
+			path = AViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,6 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DE1ED2324BD52A60042042B /* AViewController.m in Sources */,
 				8DE1ECFE24BD4E8A0042042B /* main.m in Sources */,
 				8DE1ECF024BD4E880042042B /* ViewController.m in Sources */,
 				8DE1ECEA24BD4E880042042B /* AppDelegate.m in Sources */,
