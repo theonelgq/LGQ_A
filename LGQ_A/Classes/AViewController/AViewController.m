@@ -7,7 +7,7 @@
 //
 
 #import "AViewController.h"
-
+#import <LGQ_B_Category/CTMediator+B.h>
 @interface AViewController ()
 
 @end
@@ -16,7 +16,29 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    
+    
+    
+    UIButton * btn = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+    btn.frame = CGRectMake(100, 100, 100, 100);
+    btn.backgroundColor = [UIColor redColor];
+    [btn setTitle:@"push to B" forState:UIControlStateNormal];
+    [self.view addSubview:btn];
+    
+    [btn addTarget:self
+            action:@selector(buttonAction) forControlEvents:UIControlEventTouchUpInside];
+    
+
     // Do any additional setup after loading the view.
+}
+
+- (void)buttonAction
+{
+    UIViewController *viewController = [[CTMediator sharedInstance] B_viewControllerWithContentText:@"hello, world!"];
+
+    [self.navigationController pushViewController:viewController animated:YES];
+    
 }
 
 /*

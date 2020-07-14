@@ -1,0 +1,6 @@
+framework module Pods_LGQ_A {
+  umbrella header "Pods-LGQ_A-umbrella.h"
+
+  export *
+  module * { export * }
+}

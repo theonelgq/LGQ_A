@@ -1,0 +1,23 @@
+PODS:
+  - CTMediator (32)
+  - LGQ_B_Category (0.0.1):
+    - CTMediator
+
+DEPENDENCIES:
+  - LGQ_B_Category (from `../LGQ_B_Category`)
+
+SPEC REPOS:
+  trunk:
+    - CTMediator
+
+EXTERNAL SOURCES:
+  LGQ_B_Category:
+    :path: "../LGQ_B_Category"
+
+SPEC CHECKSUMS:
+  CTMediator: 10f2c387be0ab2061b75b88c86f9903eedba1ce8
+  LGQ_B_Category: 8cb53cc9058930cba185cab3ee36393f4fd95b21
+
+PODFILE CHECKSUM: b23dacf219b5a36a800aa01e514c22f912d646c4
+
+COCOAPODS: 1.9.3
