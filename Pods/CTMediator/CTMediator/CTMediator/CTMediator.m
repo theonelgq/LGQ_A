@@ -222,3 +222,7 @@ NSString * const kCTMediatorParamsKeySwiftTargetModuleName = @"kCTMediatorParams
 }
 
 @end
+
+CTMediator* _Nonnull CT(void){
+    return [CTMediator sharedInstance];
+};

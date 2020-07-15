@@ -1,23 +1,40 @@
 PODS:
-  - CTMediator (32)
-  - LGQ_B_Category (0.0.1):
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - CTMediator (36)
+  - LGQ_B_Category (0.0.4):
     - CTMediator
 
 DEPENDENCIES:
-  - LGQ_B_Category (from `../LGQ_B_Category`)
+  - AFNetworking (~> 3.2.1)
+  - CTMediator
+  - LGQ_B_Category (~> 0.0.4)
 
 SPEC REPOS:
+  https://github.com/theonelgq/LGQPods.git:
+    - LGQ_B_Category
   trunk:
+    - AFNetworking
     - CTMediator
 
-EXTERNAL SOURCES:
-  LGQ_B_Category:
-    :path: "../LGQ_B_Category"
-
 SPEC CHECKSUMS:
-  CTMediator: 10f2c387be0ab2061b75b88c86f9903eedba1ce8
-  LGQ_B_Category: 8cb53cc9058930cba185cab3ee36393f4fd95b21
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  CTMediator: 918aa0afe3fa537f380a1fb15e7603a7e19fa0c4
+  LGQ_B_Category: b85a918ec220bab0b99872c8b6b3cd701ea913c9
 
-PODFILE CHECKSUM: b23dacf219b5a36a800aa01e514c22f912d646c4
+PODFILE CHECKSUM: 76b621778d99085cdb7e9b6a121d1c18db70b6f5
 
 COCOAPODS: 1.9.3

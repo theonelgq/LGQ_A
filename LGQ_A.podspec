@@ -101,7 +101,7 @@ Pod::Spec.new do |spec|
   #你可以随便指定文件夹名称，只要这个文件夹是真实存在的
   #Classes/**/*.{h,m}，表示 Classes 文件夹及其文件夹下的所有.h,.m 文件。
 
-  spec.source_files  = "Classes/**/*.{h,m}"
+  spec.source_files  = "LGQ_A/Classes/**/*.{h,m}"
   spec.exclude_files = "Classes/Exclude"
 
   #指定公有头文件，如果没有写，那么所有 pod 中的头文件都默认公有，可以被 import。如果指定了某些头文件，那么只有这些被指定的头文件才可以被 import。
