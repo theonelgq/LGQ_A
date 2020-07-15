@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
 
   spec.name         = "LGQ_A"
   #发版版本号，每更新一次代码就改变一次版本号
-  spec.version      = "0.0.2"
+  spec.version      = "0.0.3"
   #一个简单的总结，随便写
   spec.summary      = "A业务组建"
 
@@ -85,7 +85,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
   #这里就是你 git 仓库的 https/ssh 地址了
-  spec.source       = { :git => "https://github.com/theonelgq/LGQ_A.git", :commit => "02c03b46943c54174b9e32fbbb9c8cced5c272b0" }
+  spec.source       = { :git => "https://github.com/theonelgq/LGQ_A.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #

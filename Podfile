@@ -10,7 +10,7 @@ target 'LGQ_A' do
 
   # Pods for LGQ_A
   #pod "LGQ_B_Category", :path => "../LGQ_B_Category"
-  pod 'LGQ_B_Category', '~> 0.0.4'
+  pod 'LGQ_B_Category'
   pod 'AFNetworking', '~> 3.2.1'
   pod 'CTMediator'
   
